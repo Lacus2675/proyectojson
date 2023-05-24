@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar producto</title>
+</head>
+<body>
+    <h2>Agrega un producto</h2>
+    
+    <form action = "/products/" method="POST" enctype="multipart/form-data">
+            <div >
+            <div >
+                <label for="ima">Imagen</label><br>
+                <input placeholder = "placa.jpg" type="text" id="ima" name="ima" value="placa.jpg">
+             </div>        
+            <div>
+                <label for="marca">Marca</label><br>
+                <input type="text" id="marca" name="marca">
+            </div> 
+            <div>
+                <label for="modelo">Modelo</label><br>
+                <input type="text" id="modelo" name="modelo">
+            </div>
+            <div>
+                <label for="precio">Precio</label><br>
+                <input type="text" id="precio" name="precio">
+            </div>
+            
+            <br>      
+            <div>
+                <div>
+                    <button type="submit" class="boton">Guardar producto</button>
+                </div> 
+            <div><br>
+                    <a href = "/"><button class = "boton">Regresar</button></a>
+        </div>
+    </div> 
+
+</body>
+</html>

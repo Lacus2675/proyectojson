@@ -1,0 +1,72 @@
+[
+ {
+  "id": 1,
+  "ima": "Rx550.jpg",
+  "marca": "Asrock",
+  "modelo": "Radeon Rx 550 Phantom Gaming 2g Gddr5",
+  "precio": "$ 50.000"
+ },
+ {
+  "id": 2,
+  "ima": "1080.jpg",
+  "marca": "Asus ",
+  "modelo": "Rog Strix Geforce Gtx 1080 8gb",
+  "precio": "$ 100.000"
+ },
+ {
+  "id": 3,
+  "ima": "3060Ti.jpg",
+  "marca": "Asus",
+  "modelo": "GeForce RTX 3060 Ti OC 8Gb",
+  "precio": "$ 160.000"
+ },
+ {
+  "id": 4,
+  "ima": "3070.jpg",
+  "marca": "Msi Geforce",
+  "modelo": "Geforce Rtx 3070 Gddr6 Rgb",
+  "precio": "$ 145.000"
+ },
+ {
+  "id": 5,
+  "ima": "rx6600xt.jpg",
+  "marca": "PowerColor",
+  "modelo": "Radeon 6600 Series RX 6600 XT 8GB",
+  "precio": "$ 150.000"
+ },
+ {
+  "ima": "placa.jpg",
+  "marca": "Aorus Gaming 2",
+  "modelo": "Geforce Gtx 1080Ti 11Gb",
+  "precio": "150.500",
+  "id": 6
+ },
+ {
+  "ima": "placa.jpg",
+  "marca": "Ati ",
+  "modelo": "Radeon",
+  "precio": "95.000",
+  "id": 8
+ },
+ {
+  "id": 12,
+  "ima": "rx6600xt.jpg",
+  "marca": "PowerColor Reg",
+  "modelo": "Rx6600XT",
+  "precio": "130.000"
+ },
+ {
+  "id": 13,
+  "ima": "placa.jpg",
+  "marca": "",
+  "modelo": "",
+  "precio": ""
+ },
+ {
+  "id": 14,
+  "ima": "placa.jpg",
+  "marca": "",
+  "modelo": "",
+  "precio": ""
+ }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="../css/detalle.css">
+    <link rel="stylesheet" type="text/css" href="../css/boton.css">
+    
+    <title>Producto a Editar</title>
+</head>
+<body>
+    
+    
+    <main>
+        <div class="product-container">
+            
+              <img src=/img/<%= product.ima %>>
+               
+        </div>
+
+         <div class="product-container"> 
+           <p>
+                Marca: <%=product.marca%>
+            </p>
+
+            <p>
+                Modelo: <%=product.precio%>
+            </p>
+
+            <p class = "precio">
+                Precio: <%=product.precio%>
+            </p>
+            
+            
+            <br>
+                <a href = "/products/<%=product.id%>/edit"><button class = "boton">Editar Producto</button></a>
+                
+                <form action="/products/<%= product.id %>?_method=DELETE" method="POST">
+                     <br>
+                    <button type="submit">Eliminar</button>
+                     <br><br>
+                
+                </form>
+                
+                <a href = "/"><button class = "boton">Volver a inicio</button></a>
+                
+        
+     </div>                      
+       
+    </main>
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edicion</title>
+</head>
+<body>
+
+    
+    <h2>Edicion de producto</h2>
+    </div>
+    <form action = "/products/<%=editProduct.id %>?_method=PATCH" method = "POST">
+            <div>
+                <label for="ima">Imagen</label><br>
+                <input value = "<%= editProduct.ima %>" type="text" id="ima" name="ima">
+             </div>        
+            <div >
+                <label for="marca">Marca</label><br>
+                <input value = "<%= editProduct.marca %>" type="text" id="marca" name="marca">
+            </div> 
+            <div>
+                <label for="modelo">Modelo</label><br>
+                <input value = "<%= editProduct.modelo %>" type="text" id="modelo" name="modelo">
+            </div>
+            <div>
+                <label for="precio">Precio</label><br>
+                <input value = "<%= editProduct.precio %>" type="text" id="preio" name="precio">
+            </div>
+           
+        </div>
+
+
+            <div>
+
+                <div>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </div>
+                
+                <div>
+                    <br>
+                    <a href = "/products/<%=editProduct.id%>"><button class = "boton">Regresar</button></a>
+                </div>
+                </div> 
+                       
+    </form>
+
+    
+</body>
+</html>
